@@ -32,9 +32,9 @@ export default function Component({ service }) {
     online,
   } = nodeData.node;
   const statusIndicator = online ? (
-    <span className="text-green-500">{t("headscale.online")}</span>
+    <span className="online-status">{t("headscale.online")}</span>
   ) : (
-    <span className="text-red-500">{t("headscale.offline")}</span>
+    <span className="offline-status">{t("headscale.offline")}</span>
   );
   return (
     <Container service={service}>
