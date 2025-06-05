@@ -568,7 +568,8 @@
     "gluetun": {
         "public_ip": "Açık IP",
         "region": "Bölge",
-        "country": "Ülke"
+        "country": "Ülke",
+        "port_forwarded": "Port Forwarded"
     },
     "hdhomerun": {
         "channels": "Kanallar",
@@ -856,7 +857,8 @@
         "physicalRelease": "Fiziksel Yayınlanan",
         "digitalRelease": "Dijitalde Yayınlandı",
         "noEventsToday": "Bugün için etkinlik yok!",
-        "noEventsFound": "Etkinlik bulunamadı"
+        "noEventsFound": "Etkinlik bulunamadı",
+        "errorWhenLoadingData": "Error when loading calendar data"
     },
     "romm": {
         "platforms": "Platformlar",
@@ -885,7 +887,8 @@
     "gitea": {
         "notifications": "Bildirimler",
         "issues": "Sorunlar",
-        "pulls": "Değişiklik İstekleri"
+        "pulls": "Değişiklik İstekleri",
+        "repositories": "Repositories"
     },
     "stash": {
         "scenes": "Sahneler",
@@ -1023,12 +1026,33 @@
         "bcharge": "Pil Yüzdesi",
         "timeleft": "Kalan Zaman"
     },
-    "hoarder": {
+    "karakeep": {
         "bookmarks": "Bookmarks",
         "favorites": "Favorites",
         "archived": "Archived",
         "highlights": "Highlights",
         "lists": "Lists",
         "tags": "Etiketler"
+    },
+    "slskd": {
+        "slskStatus": "Ağ",
+        "connected": "Bağlandı",
+        "disconnected": "Bağlantı kesildi",
+        "updateStatus": "Update",
+        "update_yes": "Kullanılabilir",
+        "update_no": "Güncel",
+        "downloads": "Downloads",
+        "uploads": "Uploads",
+        "sharedFiles": "Dosyalar"
+    },
+    "jellystat": {
+        "songs": "Şarkılar",
+        "movies": "Filmler",
+        "episodes": "Bölümler",
+        "other": "Other"
+    },
+    "checkmk": {
+        "serviceErrors": "Service issues",
+        "hostErrors": "Host issues"
     }
 }

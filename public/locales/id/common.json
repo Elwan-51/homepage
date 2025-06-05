@@ -342,7 +342,7 @@
         "totalNxDomain": "Domain NX",
         "totalRefused": "Ditolak",
         "totalAuthoritative": "Authoritative",
-        "totalRecursive": "Recursive",
+        "totalRecursive": "Rekursif",
         "totalCached": "Cached",
         "totalBlocked": "Terblokir",
         "totalDropped": "Dropped",
@@ -568,7 +568,8 @@
     "gluetun": {
         "public_ip": "IP Publik",
         "region": "Region",
-        "country": "Negara"
+        "country": "Negara",
+        "port_forwarded": "Port Forwarded"
     },
     "hdhomerun": {
         "channels": "Channel",
@@ -705,8 +706,8 @@
         "time": "Waktu"
     },
     "firefly": {
-        "networth": "Net Worth",
-        "budget": "Budget"
+        "networth": "Kekayaan Bersih",
+        "budget": "Anggaran"
     },
     "grafana": {
         "dashboards": "Dasbor",
@@ -856,7 +857,8 @@
         "physicalRelease": "Rilis Fisik",
         "digitalRelease": "Rilis Digital",
         "noEventsToday": "Tidak ada acara untuk hari ini!",
-        "noEventsFound": "Tidak ada acara yang ditemukan"
+        "noEventsFound": "Tidak ada acara yang ditemukan",
+        "errorWhenLoadingData": "Error when loading calendar data"
     },
     "romm": {
         "platforms": "Platform",
@@ -885,7 +887,8 @@
     "gitea": {
         "notifications": "Notifikasi",
         "issues": "Isu",
-        "pulls": "Pull Requests"
+        "pulls": "Pull Requests",
+        "repositories": "Repositories"
     },
     "stash": {
         "scenes": "Adegan",
@@ -965,7 +968,7 @@
     "lubelogger": {
         "vehicle": "Kendaraan",
         "vehicles": "Kendaraan",
-        "serviceRecords": "Service Records",
+        "serviceRecords": "Catatan Servis",
         "reminders": "Pengingat",
         "nextReminder": "Pengingat Berikutnya",
         "none": "Tidak ada"
@@ -1023,12 +1026,33 @@
         "bcharge": "Sisa Baterai",
         "timeleft": "Sisa Waktu"
     },
-    "hoarder": {
+    "karakeep": {
         "bookmarks": "Bookmarks",
         "favorites": "Favorites",
         "archived": "Archived",
         "highlights": "Highlights",
         "lists": "Lists",
         "tags": "Tag"
+    },
+    "slskd": {
+        "slskStatus": "Jaringan",
+        "connected": "Tersambung",
+        "disconnected": "Terputus",
+        "updateStatus": "Update",
+        "update_yes": "Tersedia",
+        "update_no": "Terbaru",
+        "downloads": "Downloads",
+        "uploads": "Uploads",
+        "sharedFiles": "File"
+    },
+    "jellystat": {
+        "songs": "Lagu",
+        "movies": "Film",
+        "episodes": "Episode",
+        "other": "Other"
+    },
+    "checkmk": {
+        "serviceErrors": "Service issues",
+        "hostErrors": "Host issues"
     }
 }

@@ -568,7 +568,8 @@
     "gluetun": {
         "public_ip": "Offentlig IP",
         "region": "Region",
-        "country": "Land"
+        "country": "Land",
+        "port_forwarded": "Port Forwarded"
     },
     "hdhomerun": {
         "channels": "Kanal",
@@ -856,7 +857,8 @@
         "physicalRelease": "Fysisk utslipp",
         "digitalRelease": "Digital utgivelse",
         "noEventsToday": "Ingen hendelser for i dag!",
-        "noEventsFound": "Ingen hendelser funnet"
+        "noEventsFound": "Ingen hendelser funnet",
+        "errorWhenLoadingData": "Error when loading calendar data"
     },
     "romm": {
         "platforms": "Plattformer",
@@ -885,7 +887,8 @@
     "gitea": {
         "notifications": "Varslinger",
         "issues": "Issues",
-        "pulls": "Forespørsel"
+        "pulls": "Forespørsel",
+        "repositories": "Repositories"
     },
     "stash": {
         "scenes": "Scener",
@@ -1023,12 +1026,33 @@
         "bcharge": "Batteriladning",
         "timeleft": "Gjenstående tid"
     },
-    "hoarder": {
+    "karakeep": {
         "bookmarks": "Bookmarks",
         "favorites": "Favorites",
         "archived": "Archived",
         "highlights": "Highlights",
         "lists": "Lists",
         "tags": "Stikkord"
+    },
+    "slskd": {
+        "slskStatus": "Nettverk",
+        "connected": "Tilkoblet",
+        "disconnected": "Frakoblet",
+        "updateStatus": "Update",
+        "update_yes": "Tilgjengelig",
+        "update_no": "Oppdatert",
+        "downloads": "Downloads",
+        "uploads": "Uploads",
+        "sharedFiles": "Files"
+    },
+    "jellystat": {
+        "songs": "Sanger",
+        "movies": "Film",
+        "episodes": "Episoder",
+        "other": "Other"
+    },
+    "checkmk": {
+        "serviceErrors": "Service issues",
+        "hostErrors": "Host issues"
     }
 }

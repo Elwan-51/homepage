@@ -568,7 +568,8 @@
     "gluetun": {
         "public_ip": "Publieke IP",
         "region": "Streek",
-        "country": "Land"
+        "country": "Land",
+        "port_forwarded": "Poort Aangestuur"
     },
     "hdhomerun": {
         "channels": "Kanale",
@@ -856,7 +857,8 @@
         "physicalRelease": "Fisiese Vrylating",
         "digitalRelease": "Digitale Vrylating",
         "noEventsToday": "Geen gebeure vir vandag nie!",
-        "noEventsFound": "Geen gebeure gevind nie"
+        "noEventsFound": "Geen gebeure gevind nie",
+        "errorWhenLoadingData": "Fout tydens laai van kalenderdata"
     },
     "romm": {
         "platforms": "Platform",
@@ -885,7 +887,8 @@
     "gitea": {
         "notifications": "Kennisgewings",
         "issues": "Kwessies",
-        "pulls": "Trek Versoeke"
+        "pulls": "Trek Versoeke",
+        "repositories": "Bewaarplekke"
     },
     "stash": {
         "scenes": "Tonele",
@@ -1023,12 +1026,33 @@
         "bcharge": "Batterylading",
         "timeleft": "Oorblywende Tyd"
     },
-    "hoarder": {
-        "bookmarks": "Bookmarks",
-        "favorites": "Favorites",
-        "archived": "Archived",
-        "highlights": "Highlights",
-        "lists": "Lists",
+    "karakeep": {
+        "bookmarks": "Boekmerke",
+        "favorites": "Gunstelinge",
+        "archived": "Geargiveer",
+        "highlights": "Hoogtepunte",
+        "lists": "Lyste",
         "tags": "Merkers"
+    },
+    "slskd": {
+        "slskStatus": "Netwerk",
+        "connected": "Gekoppel",
+        "disconnected": "Ontkoppel",
+        "updateStatus": "Opdateer",
+        "update_yes": "Beskikbaar",
+        "update_no": "Op Datum",
+        "downloads": "Aflaaie",
+        "uploads": "Oplaaie",
+        "sharedFiles": "Lêers"
+    },
+    "jellystat": {
+        "songs": "Liedjies",
+        "movies": "Flieks",
+        "episodes": "Episodes",
+        "other": "Ander"
+    },
+    "checkmk": {
+        "serviceErrors": "Diensprobleme",
+        "hostErrors": "Gasheerprobleme"
     }
 }

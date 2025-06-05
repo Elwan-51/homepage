@@ -568,7 +568,8 @@
     "gluetun": {
         "public_ip": "Publiek IP",
         "region": "Regio",
-        "country": "Land"
+        "country": "Land",
+        "port_forwarded": "Port Forwarded"
     },
     "hdhomerun": {
         "channels": "Kanalen",
@@ -856,7 +857,8 @@
         "physicalRelease": "Fysieke versie",
         "digitalRelease": "Digitale versie",
         "noEventsToday": "Geen gebeurtenissen voor vandaag!",
-        "noEventsFound": "Geen gebeurtenissen gevonden"
+        "noEventsFound": "Geen gebeurtenissen gevonden",
+        "errorWhenLoadingData": "Error when loading calendar data"
     },
     "romm": {
         "platforms": "Platformen",
@@ -885,7 +887,8 @@
     "gitea": {
         "notifications": "Notificaties",
         "issues": "Problemen",
-        "pulls": "Pull Requests"
+        "pulls": "Pull Requests",
+        "repositories": "Repositories"
     },
     "stash": {
         "scenes": "Scènes",
@@ -1023,12 +1026,33 @@
         "bcharge": "Batterij opladen",
         "timeleft": "Resterende Tijd"
     },
-    "hoarder": {
+    "karakeep": {
         "bookmarks": "Bookmarks",
         "favorites": "Favorites",
         "archived": "Archived",
         "highlights": "Highlights",
         "lists": "Lists",
         "tags": "Label"
+    },
+    "slskd": {
+        "slskStatus": "Netwerk",
+        "connected": "Verbonden",
+        "disconnected": "Verbinding verbroken",
+        "updateStatus": "Update",
+        "update_yes": "Beschikbaar",
+        "update_no": "Bijgewerkt",
+        "downloads": "Downloads",
+        "uploads": "Uploads",
+        "sharedFiles": "Bestanden"
+    },
+    "jellystat": {
+        "songs": "Nummers",
+        "movies": "Films",
+        "episodes": "Afleveringen",
+        "other": "Other"
+    },
+    "checkmk": {
+        "serviceErrors": "Service issues",
+        "hostErrors": "Host issues"
     }
 }

@@ -568,7 +568,8 @@
     "gluetun": {
         "public_ip": "العام IP",
         "region": "منطقة",
-        "country": "الدولة"
+        "country": "الدولة",
+        "port_forwarded": "Port Forwarded"
     },
     "hdhomerun": {
         "channels": "القنوات",
@@ -856,7 +857,8 @@
         "physicalRelease": "الإصدار المادي",
         "digitalRelease": "الإصدار الرقمي",
         "noEventsToday": "لا توجد أحداث اليوم!",
-        "noEventsFound": "لم يتم العثور على أحداث"
+        "noEventsFound": "لم يتم العثور على أحداث",
+        "errorWhenLoadingData": "Error when loading calendar data"
     },
     "romm": {
         "platforms": "المِنصات",
@@ -885,7 +887,8 @@
     "gitea": {
         "notifications": "الإشعارات",
         "issues": "المُشكِلات",
-        "pulls": "طلبات السحب"
+        "pulls": "طلبات السحب",
+        "repositories": "Repositories"
     },
     "stash": {
         "scenes": "المشاهد",
@@ -1023,12 +1026,33 @@
         "bcharge": "شحن البطارية",
         "timeleft": "الوقت المتبقي"
     },
-    "hoarder": {
+    "karakeep": {
         "bookmarks": "Bookmarks",
         "favorites": "Favorites",
         "archived": "Archived",
         "highlights": "Highlights",
         "lists": "Lists",
         "tags": "التصنيفات"
+    },
+    "slskd": {
+        "slskStatus": "الشبكة",
+        "connected": "متصل",
+        "disconnected": "غير متصل",
+        "updateStatus": "Update",
+        "update_yes": "متاح",
+        "update_no": "حتى الآن",
+        "downloads": "Downloads",
+        "uploads": "Uploads",
+        "sharedFiles": "ملفات"
+    },
+    "jellystat": {
+        "songs": "أغاني",
+        "movies": "أفلام",
+        "episodes": "حلقات",
+        "other": "Other"
+    },
+    "checkmk": {
+        "serviceErrors": "Service issues",
+        "hostErrors": "Host issues"
     }
 }

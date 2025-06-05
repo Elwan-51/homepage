@@ -568,7 +568,8 @@
     "gluetun": {
         "public_ip": "Nyilvános IP-cím",
         "region": "Régió",
-        "country": "Ország"
+        "country": "Ország",
+        "port_forwarded": "Port Forwarded"
     },
     "hdhomerun": {
         "channels": "Csatornák",
@@ -856,7 +857,8 @@
         "physicalRelease": "Fizikai kiadás",
         "digitalRelease": "Digitális kiadás",
         "noEventsToday": "Ezen a napon nincsenek események!",
-        "noEventsFound": "Nem található esemény"
+        "noEventsFound": "Nem található esemény",
+        "errorWhenLoadingData": "Error when loading calendar data"
     },
     "romm": {
         "platforms": "Felület",
@@ -885,7 +887,8 @@
     "gitea": {
         "notifications": "Üzenetek",
         "issues": "Problémák",
-        "pulls": "Pull request-ek"
+        "pulls": "Pull request-ek",
+        "repositories": "Repositories"
     },
     "stash": {
         "scenes": "Jelenetek",
@@ -1023,12 +1026,33 @@
         "bcharge": "Akku töltöttsége",
         "timeleft": "Hátralévő idő"
     },
-    "hoarder": {
+    "karakeep": {
         "bookmarks": "Bookmarks",
         "favorites": "Favorites",
         "archived": "Archived",
         "highlights": "Highlights",
         "lists": "Lists",
         "tags": "Címkék"
+    },
+    "slskd": {
+        "slskStatus": "Hálózat",
+        "connected": "Csatlakozva",
+        "disconnected": "Kapcsolat bontva",
+        "updateStatus": "Update",
+        "update_yes": "Elérhető",
+        "update_no": "Naprakész",
+        "downloads": "Downloads",
+        "uploads": "Uploads",
+        "sharedFiles": "Fájlok"
+    },
+    "jellystat": {
+        "songs": "Zeneszám",
+        "movies": "Film",
+        "episodes": "Epizód",
+        "other": "Other"
+    },
+    "checkmk": {
+        "serviceErrors": "Service issues",
+        "hostErrors": "Host issues"
     }
 }

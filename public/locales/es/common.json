@@ -149,8 +149,8 @@
         "received": "Recibido",
         "sent": "Enviado",
         "externalIPAddress": "IP ext.",
-        "externalIPv6Address": "Ext. IPv6",
-        "externalIPv6Prefix": "Ext. IPv6-Prefix"
+        "externalIPv6Address": "IPv6 ext.",
+        "externalIPv6Prefix": "Prefijo IPv6 ext."
     },
     "caddy": {
         "upstreams": "Upstream (desarrollo de software)",
@@ -178,7 +178,7 @@
         "connectedAp": "AP conectados",
         "activeUser": "Dispositivos activos",
         "alerts": "Alertas",
-        "connectedGateways": "Connected gateways",
+        "connectedGateways": "Puertas de enlace conectadas",
         "connectedSwitches": "Conmutadores conectados"
     },
     "nzbget": {
@@ -568,7 +568,8 @@
     "gluetun": {
         "public_ip": "IP pública",
         "region": "Región",
-        "country": "País"
+        "country": "País",
+        "port_forwarded": "Port Forwarded"
     },
     "hdhomerun": {
         "channels": "Canales",
@@ -705,8 +706,8 @@
         "time": "Tiempo"
     },
     "firefly": {
-        "networth": "Net Worth",
-        "budget": "Budget"
+        "networth": "Patrimonio neto",
+        "budget": "Presupuesto"
     },
     "grafana": {
         "dashboards": "Tableros",
@@ -856,7 +857,8 @@
         "physicalRelease": "Lanzamiento en físico",
         "digitalRelease": "Lanzamiento en digital",
         "noEventsToday": "¡Sin eventos para hoy!",
-        "noEventsFound": "No se encontraron eventos"
+        "noEventsFound": "No se encontraron eventos",
+        "errorWhenLoadingData": "Error when loading calendar data"
     },
     "romm": {
         "platforms": "Plataformas",
@@ -885,7 +887,8 @@
     "gitea": {
         "notifications": "Notificaciones",
         "issues": "Números",
-        "pulls": "Solicitudes de cambios"
+        "pulls": "Solicitudes de cambios",
+        "repositories": "Repositorios"
     },
     "stash": {
         "scenes": "Escenas",
@@ -1023,12 +1026,33 @@
         "bcharge": "Carga de la batería",
         "timeleft": "Tiempo restante"
     },
-    "hoarder": {
-        "bookmarks": "Bookmarks",
-        "favorites": "Favorites",
-        "archived": "Archived",
-        "highlights": "Highlights",
-        "lists": "Lists",
+    "karakeep": {
+        "bookmarks": "Marcadores",
+        "favorites": "Favoritos",
+        "archived": "Archivado",
+        "highlights": "Destacados",
+        "lists": "Listas",
         "tags": "Etiquetas"
+    },
+    "slskd": {
+        "slskStatus": "Red",
+        "connected": "Conectado",
+        "disconnected": "Desconectado",
+        "updateStatus": "Actualización",
+        "update_yes": "Disponible",
+        "update_no": "Actualizado",
+        "downloads": "Descargas",
+        "uploads": "Subidas",
+        "sharedFiles": "Archivos"
+    },
+    "jellystat": {
+        "songs": "Canciones",
+        "movies": "Películas",
+        "episodes": "Episodios",
+        "other": "Otros"
+    },
+    "checkmk": {
+        "serviceErrors": "Service issues",
+        "hostErrors": "Host issues"
     }
 }

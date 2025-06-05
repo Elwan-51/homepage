@@ -47,7 +47,7 @@
         "load": "Last",
         "temp": "TEMP",
         "max": "Max",
-        "uptime": "UP"
+        "uptime": "BETRIEBSZEIT"
     },
     "unifi": {
         "users": "Benutzer",
@@ -61,7 +61,7 @@
         "wlan_devices": "WLAN-Geräte",
         "lan_users": "LAN-Benutzer",
         "wlan_users": "WLAN-Benutzer",
-        "up": "UP",
+        "up": "BETRIEBSZEIT",
         "down": "EMPFANGEN",
         "wait": "Bitte warten",
         "empty_data": "Subsystem-Status unbekannt"
@@ -150,7 +150,7 @@
         "sent": "Gesendet",
         "externalIPAddress": "Externe IP",
         "externalIPv6Address": "Externe IPv6",
-        "externalIPv6Prefix": "Externer IPv4-Präfix"
+        "externalIPv6Prefix": "Externes IPv6-Präfix"
     },
     "caddy": {
         "upstreams": "Upstreams",
@@ -436,7 +436,7 @@
         "temp": "TEMP",
         "_temp": "Temperatur",
         "warn": "Warnung",
-        "uptime": "UP",
+        "uptime": "BETRIEBSZEIT",
         "total": "Gesamt",
         "free": "Frei",
         "used": "In Benutzung",
@@ -447,7 +447,7 @@
         "write": "Schreiben",
         "gpu": "GPU",
         "mem": "RAM",
-        "swap": "Swap"
+        "swap": "Auslagerung"
     },
     "quicklaunch": {
         "bookmark": "Lesezeichen",
@@ -568,7 +568,8 @@
     "gluetun": {
         "public_ip": "Öffentliche IP",
         "region": "Region",
-        "country": "Land"
+        "country": "Land",
+        "port_forwarded": "Port weitergeleitet"
     },
     "hdhomerun": {
         "channels": "Kanäle",
@@ -665,8 +666,8 @@
         "storage": "Speicher"
     },
     "uptimekuma": {
-        "up": "Seiten verfügbar",
-        "down": "Seiten nicht verfügbar",
+        "up": "Up",
+        "down": "Down",
         "uptime": "Betriebszeit",
         "incident": "Vorfall",
         "m": "min"
@@ -744,8 +745,8 @@
         "targets_total": "Alle Ziele"
     },
     "gatus": {
-        "up": "Seiten verfügbar",
-        "down": "Seiten nicht verfügbar",
+        "up": "Up",
+        "down": "Down",
         "uptime": "Betriebszeit"
     },
     "ghostfolio": {
@@ -842,8 +843,8 @@
         "uptime": "Betriebszeit",
         "lastDown": "Letzter Ausfall",
         "downDuration": "Ausfalldauer",
-        "sitesUp": "Seiten verfügbar",
-        "sitesDown": "Seiten nicht verfügbar",
+        "sitesUp": "Up",
+        "sitesDown": "Down",
         "paused": "Pausiert",
         "notyetchecked": "Noch nicht geprüft",
         "up": "Online",
@@ -856,7 +857,8 @@
         "physicalRelease": "Physische Version",
         "digitalRelease": "Digitale Version",
         "noEventsToday": "Heute keine Ereignisse!",
-        "noEventsFound": "Keine Termine gefunden"
+        "noEventsFound": "Keine Termine gefunden",
+        "errorWhenLoadingData": "Fehler beim Laden der Kalenderdaten"
     },
     "romm": {
         "platforms": "Plattformen",
@@ -885,7 +887,8 @@
     "gitea": {
         "notifications": "Benachrichtigungen",
         "issues": "Probleme",
-        "pulls": "Pull-Requests"
+        "pulls": "Pull-Requests",
+        "repositories": "Repositories"
     },
     "stash": {
         "scenes": "Szenen",
@@ -1023,12 +1026,33 @@
         "bcharge": "Akkuladung",
         "timeleft": "Verbleibende Zeit"
     },
-    "hoarder": {
-        "bookmarks": "Bookmarks",
-        "favorites": "Favorites",
-        "archived": "Archived",
+    "karakeep": {
+        "bookmarks": "Lesezeichen",
+        "favorites": "Favoriten",
+        "archived": "Archiviert",
         "highlights": "Highlights",
-        "lists": "Lists",
+        "lists": "Listen",
         "tags": "Schlagwörter"
+    },
+    "slskd": {
+        "slskStatus": "Netzwerk",
+        "connected": "Verbunden",
+        "disconnected": "Getrennt",
+        "updateStatus": "Update",
+        "update_yes": "Verfügbar",
+        "update_no": "Aktuell",
+        "downloads": "Downloads",
+        "uploads": "Uploads",
+        "sharedFiles": "Dateien"
+    },
+    "jellystat": {
+        "songs": "Songs",
+        "movies": "Filme",
+        "episodes": "Episoden",
+        "other": "Andere"
+    },
+    "checkmk": {
+        "serviceErrors": "Dienstprobleme",
+        "hostErrors": "Hostprobleme"
     }
 }

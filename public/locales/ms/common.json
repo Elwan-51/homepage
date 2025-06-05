@@ -568,7 +568,8 @@
     "gluetun": {
         "public_ip": "IP Awam",
         "region": "Rantau",
-        "country": "Negara"
+        "country": "Negara",
+        "port_forwarded": "Port Forwarded"
     },
     "hdhomerun": {
         "channels": "Saluran",
@@ -856,7 +857,8 @@
         "physicalRelease": "Edaran fizikal",
         "digitalRelease": "Edaran digital",
         "noEventsToday": "Tiada agenda untuk hari ini!",
-        "noEventsFound": "Tiada agenda dijumpai"
+        "noEventsFound": "Tiada agenda dijumpai",
+        "errorWhenLoadingData": "Error when loading calendar data"
     },
     "romm": {
         "platforms": "Platform",
@@ -885,7 +887,8 @@
     "gitea": {
         "notifications": "Notifications",
         "issues": "Issues",
-        "pulls": "Pull Requests"
+        "pulls": "Pull Requests",
+        "repositories": "Repositories"
     },
     "stash": {
         "scenes": "Adegan",
@@ -1023,12 +1026,33 @@
         "bcharge": "Bateri dicas",
         "timeleft": "Masa Tinggal"
     },
-    "hoarder": {
+    "karakeep": {
         "bookmarks": "Bookmarks",
         "favorites": "Favorites",
         "archived": "Archived",
         "highlights": "Highlights",
         "lists": "Lists",
         "tags": "Tanda nama"
+    },
+    "slskd": {
+        "slskStatus": "Rangkaian",
+        "connected": "Connected",
+        "disconnected": "Sambungan Terputus",
+        "updateStatus": "Update",
+        "update_yes": "Sudah Ada",
+        "update_no": "Terkemaskini",
+        "downloads": "Downloads",
+        "uploads": "Uploads",
+        "sharedFiles": "Files"
+    },
+    "jellystat": {
+        "songs": "Lagu",
+        "movies": "Filem",
+        "episodes": "Episod",
+        "other": "Other"
+    },
+    "checkmk": {
+        "serviceErrors": "Service issues",
+        "hostErrors": "Host issues"
     }
 }

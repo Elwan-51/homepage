@@ -1,15 +1,15 @@
 import { promises as fs } from "fs";
 import path from "path";
 
-import yaml from "js-yaml";
 import Docker from "dockerode";
+import yaml from "js-yaml";
 
-import createLogger from "utils/logger";
 import checkAndCopyConfig, { CONF_DIR, getSettings, substituteEnvironmentVars } from "utils/config/config";
 import getDockerArguments from "utils/config/docker";
-import kubernetes from "utils/kubernetes/export";
 import { getKubeConfig } from "utils/config/kubernetes";
 import * as shvl from "utils/config/shvl";
+import kubernetes from "utils/kubernetes/export";
+import createLogger from "utils/logger";
 
 const logger = createLogger("service-helpers");
 
@@ -304,6 +304,9 @@ export function cleanServiceGroups(groups) {
           // frigate
           enableRecentEvents,
 
+          // gamedig
+          gameToken,
+
           // beszel, glances, immich, komga, mealie, pihole, pfsense, speedtest
           version,
 
@@ -330,6 +333,9 @@ export function cleanServiceGroups(groups) {
           loadingStrategy,
           referrerPolicy,
           src,
+
+          // jellystat
+          days,
 
           // kopia
           snapshotHost,
@@ -361,6 +367,9 @@ export function cleanServiceGroups(groups) {
 
           // proxmox
           node,
+
+          // proxmoxbackupserver
+          datastore,
 
           // speedtest
           bitratePrecision,
@@ -437,6 +446,9 @@ export function cleanServiceGroups(groups) {
         if (type === "proxmox") {
           if (node) widget.node = node;
         }
+        if (type === "proxmoxbackupserver") {
+          if (datastore) widget.datastore = datastore;
+        }
         if (type === "kubernetes") {
           if (namespace) widget.namespace = namespace;
           if (app) widget.app = app;
@@ -478,11 +490,16 @@ export function cleanServiceGroups(groups) {
         if (["diskstation", "qnap"].includes(type)) {
           if (volume) widget.volume = volume;
         }
+        if (type === "gamedig") {
+          if (gameToken) widget.gameToken = gameToken;
+        }
         if (type === "kopia") {
           if (snapshotHost) widget.snapshotHost = snapshotHost;
           if (snapshotPath) widget.snapshotPath = snapshotPath;
         }
-        if (["beszel", "glances", "immich", "komga", "mealie", "pfsense", "pihole", "speedtest"].includes(type)) {
+        if (
+          ["beszel", "glances", "immich", "komga", "mealie", "pfsense", "pihole", "speedtest", "wgeasy"].includes(type)
+        ) {
           if (version) widget.version = parseInt(version, 10);
         }
         if (type === "glances") {
@@ -556,6 +573,9 @@ export function cleanServiceGroups(groups) {
         }
         if (type === "spoolman") {
           if (spoolIds !== undefined) widget.spoolIds = spoolIds;
+        }
+        if (type === "jellystat") {
+          if (days !== undefined) widget.days = parseInt(days, 10);
         }
         return widget;
       });

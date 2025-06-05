@@ -568,7 +568,8 @@
     "gluetun": {
         "public_ip": "IP Pública",
         "region": "Regió",
-        "country": "País"
+        "country": "País",
+        "port_forwarded": "Port Forwarded"
     },
     "hdhomerun": {
         "channels": "Canals",
@@ -856,7 +857,8 @@
         "physicalRelease": "Estrena física",
         "digitalRelease": "Estrena digital",
         "noEventsToday": "Cap esdeveniment per avui!",
-        "noEventsFound": "No s'han trobat esdeveniments"
+        "noEventsFound": "No s'han trobat esdeveniments",
+        "errorWhenLoadingData": "Error when loading calendar data"
     },
     "romm": {
         "platforms": "Plataformes",
@@ -885,7 +887,8 @@
     "gitea": {
         "notifications": "Notificacions",
         "issues": "Problemes",
-        "pulls": "Sol·licitud de Canvis"
+        "pulls": "Sol·licitud de Canvis",
+        "repositories": "Repositories"
     },
     "stash": {
         "scenes": "Escenes",
@@ -1023,12 +1026,33 @@
         "bcharge": "Càrrega de la bateria",
         "timeleft": "Temps restant"
     },
-    "hoarder": {
+    "karakeep": {
         "bookmarks": "Bookmarks",
         "favorites": "Favorites",
         "archived": "Archived",
         "highlights": "Highlights",
         "lists": "Lists",
         "tags": "Etiquetes"
+    },
+    "slskd": {
+        "slskStatus": "Xarxa",
+        "connected": "Connectat",
+        "disconnected": "Desconnectat",
+        "updateStatus": "Update",
+        "update_yes": "Disponible",
+        "update_no": "Actualitzat",
+        "downloads": "Downloads",
+        "uploads": "Uploads",
+        "sharedFiles": "Fitxers"
+    },
+    "jellystat": {
+        "songs": "Cançons",
+        "movies": "Pel·lícules",
+        "episodes": "Episodis",
+        "other": "Other"
+    },
+    "checkmk": {
+        "serviceErrors": "Service issues",
+        "hostErrors": "Host issues"
     }
 }
